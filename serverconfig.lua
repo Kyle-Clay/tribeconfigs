@@ -4,8 +4,8 @@
 
 -------------- SERVER INFO --------------
 
-ServerSettings.Description = "Duel Server for Cunts"
-ServerSettings.Motd = "tribe server for cunts"
+ServerSettings.Description = "Denial | Duel"
+ServerSettings.Motd = "1v1 pls"
 ServerSettings.Password = "dools.jpg"
 ServerSettings.GameSettingMode = ServerSettings.GameSettingModes.OOTB
 
@@ -69,51 +69,16 @@ ServerSettings.ArenaLives = 15
 
 -------------- CLASS LIMIT SETTINGS --------------
 ServerSettings.LightCountLimit = 4
-ServerSettings.MediumCountLimit = 8
-ServerSettings.HeavyCountLimit = 1
+ServerSettings.MediumCountLimit = 4
+ServerSettings.HeavyCountLimit = 4
 
 
 
 -------------- WEAPON BANS --------------
-ServerSettings.BannedItems.add("Light", "Light Grenade Launcher")
-ServerSettings.BannedItems.add("Light", "Phase Rifle")
-ServerSettings.BannedItems.add("Light", "BXT1 Rifle")
-ServerSettings.BannedItems.add("Medium", "Sawed-Off Shotgun")
-ServerSettings.BannedItems.add("Medium", "Grenade Launcher")
-ServerSettings.BannedItems.add("Medium", "ELF Projector")
-ServerSettings.BannedItems.add("Medium", "Arx Buster")
-ServerSettings.BannedItems.add("Medium", "Advanced Repair Tool")
-ServerSettings.BannedItems.add("Medium", "Flak Cannon")
-ServerSettings.BannedItems.add("Heavy", "Chain Gun")
-ServerSettings.BannedItems.add("Heavy", "Automatic Shotgun")
-ServerSettings.BannedItems.add("Heavy", "EFG")
-ServerSettings.BannedItems.add("Heavy", "MIRV Launcher")
 
 -------------- PACK BANS --------------
-ServerSettings.BannedItems.add("Light", "Light Energy Pack")
-ServerSettings.BannedItems.add("Light", "Stealth Pack")
-ServerSettings.BannedItems.add("Light", "Light Utility Pack")
-ServerSettings.BannedItems.add("Medium", "Shield Pack")
-ServerSettings.BannedItems.add("Medium", "Jammer Pack")
-ServerSettings.BannedItems.add("Medium", "EXR Turret")
-ServerSettings.BannedItems.add("Medium", "Light Turret")
-ServerSettings.BannedItems.add("Medium", "Drop Station")
-ServerSettings.BannedItems.add("Heavy", "Force Field")
-ServerSettings.BannedItems.add("Heavy", "Heavy Shield Pack")
-ServerSettings.BannedItems.add("Heavy", "Heavy Energy Pack")
-
 
 -------------- NADE BANS --------------
-ServerSettings.BannedItems.add("Light", "Claymore Mine")
-ServerSettings.BannedItems.add("Light", "Chaff Grenade")
-ServerSettings.BannedItems.add("Medium", "EMP Grenade")
-ServerSettings.BannedItems.add("Medium", "Blackout Grenade")
-ServerSettings.BannedItems.add("Medium", "Cluster Grenade")
-ServerSettings.BannedItems.add("Medium", "Motion Sensor")
-ServerSettings.BannedItems.add("Heavy", "Mines")
-ServerSettings.BannedItems.add("Heavy", "Fractal Grenade")
-
-
 
 -------------- MAP ROTATION --------------
 
