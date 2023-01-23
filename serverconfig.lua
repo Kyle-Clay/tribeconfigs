@@ -4,8 +4,8 @@
 
 -------------- SERVER INFO --------------
 
-ServerSettings.Description = "Denial | Duel"
-ServerSettings.Motd = "1v1 pls"
+ServerSettings.Description = "Gaybros Gone Wild | Dallas"
+ServerSettings.Motd = "don't drop the soap"
 ServerSettings.Password = "dools.jpg"
 ServerSettings.GameSettingMode = ServerSettings.GameSettingModes.OOTB
 
