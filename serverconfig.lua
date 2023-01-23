@@ -63,6 +63,9 @@ doSetupRoles(roles)
 -- ServerSettings.CTFCapLimit = 7
 -- ServerSettings.BannedItems.add("Light", "BXT1")
 
+ServerSettings.MaxPlayers = 8
+ServerSettings.AutoBalanceTeams = false
+
 ServerSettings.ArenaRounds = 2
 ServerSettings.ArenaLives = 15
 
