@@ -3,9 +3,9 @@
 #Remove old instances of TAserver if present
 sudo docker rm -f taserver &> /dev/null
 
-#install docker
+#install docker and dependancies
 sudo apt-get update &> /dev/null
-sudo apt-get install ufw ca-certificates curl gnupg lsb-release docker.io -y &> /dev/null
+sudo apt-get install ufw python3 vim ca-certificates curl gnupg lsb-release docker.io -y &> /dev/null
 sudo snap install docker &> /dev/null
 
 #by default firewall is disabled, open port 22 for ssh and enable firewall
@@ -25,13 +25,13 @@ mkdir gamesettings
 #download docker image
 sudo docker pull chickenbellyfin/taserver 
 
-#Get admin.lua and serverconfig.lua files
+#Get admin.lua and serverconfig.lua files from github repo
 touch gamesettings/admin.lua &> /dev/null
 touch gamesettings/serverconfig.lua &> /dev/null
 sudo curl -o gamesettings/admin.lua https://raw.githubusercontent.com/Kyle-Clay/tribeconfigs/main/admin.lua
 sudo curl -o gamesettings/serverconfig.lua https://raw.githubusercontent.com/Kyle-Clay/tribeconfigs/main/serverconfig.lua
 
-
+#starts taserver with custom gamefiles in gamesettings/
 docker run \
   --name "taserver" -d --restart unless-stopped --cap-add NET_ADMIN \
   -v "$(pwd)/gamesettings:/gamesettings" \
